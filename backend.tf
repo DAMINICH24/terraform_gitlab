@@ -3,7 +3,7 @@ terraform{
     backend "s3" {
         region = "us-east-1"
         profile = "default"
-        key = "terraformstatefile"
-        bucket = "terraformgitlabbucket"
+        key = "cicdtf"
+        bucket = "cicdtf"
     }
 }
