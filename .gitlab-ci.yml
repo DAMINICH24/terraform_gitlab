@@ -28,6 +28,7 @@ validate:
   stage: validate
   script:
     - terraform validate
+  when: manual
 plan:
   stage: plan
   script:
